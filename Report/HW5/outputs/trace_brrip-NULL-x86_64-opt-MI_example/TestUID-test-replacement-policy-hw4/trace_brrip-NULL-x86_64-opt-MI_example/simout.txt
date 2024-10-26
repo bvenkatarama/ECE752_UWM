@@ -1,0 +1,23 @@
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.0.0.1
+gem5 compiled Oct 24 2024 00:57:13
+gem5 started Oct 24 2024 01:20:26
+gem5 executing on tux-126, pid 185445
+command line: /filespace/b/bvenkatarama/Desktop/ECE752/HW1/gem5/build/NULL_MI_example/gem5.opt -d /tmp/gem5out8vnthi58 -re --silent-redirect /filespace/b/bvenkatarama/Desktop/ECE752/HW1/gem5/tests/gem5/replacement_policies/configs/run_replacement_policy.py hw4/trace_brrip /filespace/b/bvenkatarama/Desktop/ECE752/HW1/gem5/tests/gem5/replacement_policies/hw4/trace_brrip.py
+
+Global frequency set at 1000000000000 ticks per second
+Beginning simulation!
+  74000: system.cache_hierarchy.ruby_system.controllers.sequencer: Cache miss at [0x0, line 0x0]
+ 134000: system.cache_hierarchy.ruby_system.controllers.sequencer: Cache miss at [0x81, line 0x80]
+ 194000: system.cache_hierarchy.ruby_system.controllers.sequencer: Cache miss at [0x100, line 0x100]
+ 254000: system.cache_hierarchy.ruby_system.controllers.sequencer: Cache miss at [0x188, line 0x180]
+ 271000: system.cache_hierarchy.ruby_system.controllers.sequencer: Cache hit at [0x4, line 0x0]
+ 379000: system.cache_hierarchy.ruby_system.controllers.sequencer: Cache miss at [0x200, line 0x200]
+ 391000: system.cache_hierarchy.ruby_system.controllers.sequencer: Cache hit at [0x18c, line 0x180]
+ 451000: system.cache_hierarchy.ruby_system.controllers.sequencer: Cache hit at [0x108, line 0x100]
+ 559000: system.cache_hierarchy.ruby_system.controllers.sequencer: Cache miss at [0x380, line 0x380]
+ 619000: system.cache_hierarchy.ruby_system.controllers.sequencer: Cache miss at [0x8, line 0x0]
+Exiting @ tick 630000 because system.processor.cores.generator has encountered the exit state and will terminate the simulation.
+.

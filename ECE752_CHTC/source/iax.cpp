@@ -1,16 +1,15 @@
 #include <cstdio>
 #include <stdlib.h>
 #include <random>
+#include "gem5/m5ops.h"
 
 int main(int argc, char * argv[])
 {
   const int N = atoi(argv[1]);
-  int X[N], Y[N], alpha = 0.5;
-  std::random_device rd; std::mt19937 gen(rd());
-  std::uniform_int_distribution<> dis(1,100);
+  int X[N], Y[N], alpha = 2;
   for (int i = 0; i < N; ++i)
   {
-    X[i] = dis(gen);
+    X[i] = rand()%100;
   }
   
   // Start of iax loop

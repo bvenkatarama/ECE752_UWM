@@ -1,6 +1,7 @@
 #include <cstdio>
 #include <stdlib.h>
 #include <random>
+#include "gem5/m5ops.h"
 
 int main(int argc, char * argv[])
 {

@@ -1,7 +1,7 @@
 #include <cstdio>
 #include <stdlib.h>
 #include <random>
-#include <gem5/m5ops.h>
+#include "gem5/m5ops.h"
 
 #define GEM5
 

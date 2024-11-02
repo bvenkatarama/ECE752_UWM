@@ -1,0 +1,27 @@
+
+# running DAXPY in gem5 submission file
+universe = docker
+docker_image = gcr.io/gem5-test/ubuntu-20.04_all-dependencies
+
+
+log = run_dax.log
+error = run_dax.err
+output = run_dax.out
+
+executable = run_dax.sh
+# DAXPY size
+arguments = 65536
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = gem5/, dax
+
+environment = "TERM=xterm-256color"
+
+request_cpus = 1
+request_memory = 20GB
+request_disk = 20GB
+
+stream_output = True
+
+queue 1
